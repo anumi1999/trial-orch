@@ -1,0 +1,5 @@
+sshUser: muskan
+sshKeyFile: ./key.pub
+vmAddress: 10.238.176.22
+# repoCloneURL: https://github.com/your-username/your-repo.git
+deployScript: ./deploy/script.sh
