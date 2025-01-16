@@ -14,5 +14,5 @@ jobs:
         run: |
           curl -X POST \
           -H "Content-Type: application/json" \
-          -d '{"repository": "https://gecgithub01.walmart.com/m0j0a8a/orch", "ref": "refs/heads/main"}' \
+          -d '{"repository": "https://github.com/anumi1999/trial-orch", "ref": "refs/heads/main"}' \
           http://10.238.176.15:6767/webhook
