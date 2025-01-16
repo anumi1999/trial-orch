@@ -8,11 +8,11 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
-  steps:
-      name: Send webhook request to orchestrator
-      run: |
-        curl -X POST \
+    
+    steps:
+      - name: Send webhook request to orchestrator
+        run: |
+          curl -X POST \
           -H "Content-Type: application/json" \
           -d '{"repository": "https://gecgithub01.walmart.com/m0j0a8a/orch", "ref": "refs/heads/main"}' \
           http://10.238.176.15:6767/webhook
